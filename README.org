@@ -1,0 +1,37 @@
+* BIZUDIA
+
+** Overview
+
+BIZUDIA は,
+- [[https://github.com/microsoft/cascadia-code][microsoft/cascadia-code]]
+- [[https://github.com/googlefonts/morisawa-biz-ud-gothic][morisawa/BIZ UDGothic]]
+- [[https://github.com/googlefonts/noto-emoji][googlefonts/noto-emoji]] : モノクロ版
+- [[https://github.com/uwabami/isfit-plus][uwabami/isfit-plus]]: Nerd Icons + All-the-icons.ttf + File-icons.ttf
+を組み合わせた合成フォントです.
+
+** ビルド
+
+ビルドには GNU Makefile, python3, fontforge, fonttools, ttfautohint が必要です.
+これらをインストールした後, make を叩いてみて下さい. =dists/= 以下にフォントが再生成されます.
+
+Ubuntu や Debian では
+#+begin_src shell
+% sudo apt install make wget unar python3 python3-fontforge fonttools ttfautohint
+% make
+#+end_src
+で良い筈です.
+** Font sources
+   Note:
+   All brand icons are trademarks of their respective owners and should
+   only be used to represent the company or product to which they refer.
+
+   Base fonts:
+   |--------------------------------------+--------------+--------------|
+   | Name                                 | Version      | License      |
+   |--------------------------------------+--------------+--------------|
+   | [[https://github.com/microsoft/cascadia-code][microsoft/cascadia-code]]              | 2111.01      | [[file:source_fonts/LICENSE_CascadiaMono.txt][SIL OFL v1.1]] |
+   | [[https://github.com/googlefonts/morisawa-biz-ud-gothic][Morisawa BIZ UDGothic]]                | v1.05        | [[SIL OFL v1.1]] |
+   | [[https://github.com/googlefonts/noto-emoji][Noto Emoji]] (モノクロ版)              | Unicode 15.0 | [[file:source_fonts/LICENSE_NotoEmoji.txt][SIL OFL v1.1]] |
+   | 全角スペース: [[https://github.com/yuru7/udev-gothic][yuru7/udev-gothic]] より | v1.3.1       | [[file:source_fonts/LICENSE_ideographic_space.txt][SIL OFL v1.1]] |
+   |--------------------------------------+--------------+--------------|
+   Icon fontset: @see [[https://github.com/uwabami/isfit-plus][isfit+]]
