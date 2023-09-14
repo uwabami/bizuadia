@@ -1,8 +1,8 @@
-* BIZUDIA
+* BIZUADIA
 
 ** Overview
 
-BIZUDIA は,
+BIZUADIA は,
 - [[https://github.com/microsoft/cascadia-code][microsoft/cascadia-code]]
 - [[https://github.com/googlefonts/morisawa-biz-ud-gothic][morisawa/BIZ UDGothic]]
 - [[https://github.com/googlefonts/noto-emoji][googlefonts/noto-emoji]] : モノクロ版

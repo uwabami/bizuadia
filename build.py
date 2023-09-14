@@ -6,7 +6,7 @@ import psMat
 import fontforge
 
 VERSION = "v0.0.1"
-FONT_NAME = "BIZUDIA"
+FONT_NAME = "BIZUADIA"
 
 BUILD_TMP = "tmp"
 DISTS     = "dists"

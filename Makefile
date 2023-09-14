@@ -63,8 +63,6 @@ clean:
 
 distclean: clean
 	rm -fr $(SRCD)/*.ttf
-	rm -fr $(SRCD)/*.otf
 	rm -fr $(DIST)/*.ttf
 	rm -fr $(TMPD)
-	rm -fr $(SRCD)
 	rm -fr $(DIST)
